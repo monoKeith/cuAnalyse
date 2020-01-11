@@ -1,0 +1,31 @@
+body{
+
+}
+h1 {
+    font-family: "Apple SD Gothic Neo";
+    color: darkblue;
+    background-color: transparent;
+}
+h5{
+    font-family: "Apple SD Gothic Neo";
+    color: white;
+    background-color: transparent;
+}
+
+#centerContent{
+    align-content: center;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#bottomContent{
+    align-content: center;
+    text-align: center;
+    background-color: darkblue;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
