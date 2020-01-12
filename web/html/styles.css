@@ -1,31 +1,89 @@
-body{
-
+html, body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    overflow: scroll;
+    background-color: lightgray;
 }
 h1 {
     font-family: "Apple SD Gothic Neo";
-    color: darkblue;
+    color: darkgrey;
     background-color: transparent;
 }
 h5{
     font-family: "Apple SD Gothic Neo";
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
     color: white;
     background-color: transparent;
 }
-
+#everything{
+    margin: 0;
+    padding: 0;
+}
 #centerContent{
     align-content: center;
     text-align: center;
-    background-color: aliceblue;
-    margin: 10px;
-    padding: 20px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding: 0 10px;
     border-radius: 10px;
+    top: 5%;
+    left: 0;
+    right: 0;
+    width: 1300px;
+    height: 1000px;
+    position: fixed;
+}
+#buttonPane{
+    align-items: center;
+    padding: 5px;
+    width: 1280px;
+    margin: 10px auto;
+    border-width: 20px;
+    border-radius: 10px;
+    left: 0;
+    right: 0;
+}
+#infoPane{
+    background: #e4e8f0;
+    overflow: scroll;
+    width: 420px;
+    height: 825px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#infoCard{
+    width: 400px;
+    min-height: 80px;
+    border-radius: 10px;
+    background: #c3dceb;
+    margin: 10px;
 }
 
 #bottomContent{
-    align-content: center;
     text-align: center;
-    background-color: darkblue;
-    margin: 10px;
-    padding: 20px;
+    background-color: darkgray;
+    margin: 10px auto;
+    padding: 10px;
+    width: 1300px;
     border-radius: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.executeButton{
+    background-color: darkcyan;
+    width: 150px;
+    border-radius: 10px;
+    border-width: 0;
+    text-align: center;
+    padding: 10px;
+    margin: 5px 135px;
 }

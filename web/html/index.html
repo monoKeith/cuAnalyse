@@ -6,11 +6,29 @@
     <title>RBC issue tracker</title>
 </head>
 <body>
-    <div id="centerContent">
-        <h1>RBC Issue Tracking System</h1>
+    <div id="everything">
+        <div id="centerContent">
+            <h1>RBC Issue Tracking System</h1>
+            <div id="buttonPane">
+                <button class="executeButton" onclick="collectDataButton()" style="background-color: #fc9088">
+                    <h5>Collect Data</h5>
+                </button>
+                <button class="executeButton" onclick="importDataButton()" style="background-color: #edc368">
+                    <h5>Import  Data</h5>
+                </button>
+                <button class="executeButton" onclick="analyseDataButton()" style="background-color: #a779ed">
+                    <h5>Analyse Data</h5>
+                </button>
+            </div>
+            <div id="infoPane">
+                <!--infoPane for displaying tweet info-->
+            </div>
+        </div>
+        <div id="bottomContent">
+            <h5>Product of cuHacking 2020</h5>
+        </div>
     </div>
-    <div id="bottomContent">
-        <h5>Product of cuHacking 2020.</h5>
-    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
 </body>
 </html>
