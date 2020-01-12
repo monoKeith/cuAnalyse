@@ -10,6 +10,8 @@ spaCy
 
 google-cloud-language
 
-#Run
+# Setup
+
+On mac: https://cloud.google.com/sdk/docs/#mac
 
 export GOOGLE_APPLICATION_CREDENTIALS="./key.json"
