@@ -23,6 +23,7 @@ function updateInfoPane(data){
         //console.log(returnData[key])
         pushInfo(data[key])
     }
+    infoPane.scrollTop = infoPane.scrollHeight
 }
 
 function updateSystemLog(data){

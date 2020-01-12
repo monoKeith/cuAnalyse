@@ -15,6 +15,7 @@ const ROOT_DIR = "html" //dir to serve static files from
 
 const PORT = process.env.PORT || 3000;
 var enableRealTimeUpdate = false
+var jsonLength = 0
 
 app.listen(PORT);//
 
@@ -106,7 +107,6 @@ function handler(request, response) {
 
 function importData(){
     // read test json file!
-    const fs = require('fs');
     let rawdata = fs.readFileSync('testTwitterContent.json');
     let dataObj = JSON.parse(rawdata)
     // send data to client
@@ -128,12 +128,33 @@ function realTimeUpdate(){
         realTimeUpdate()
     }, 500)
     console.log("Real Time Update!")
-
+    try{
+        let rawdata = fs.readFileSync('test.json')
+        let dataObj = JSON.parse(rawdata)
+        //console.log(dataObj)
+        if(dataObj.length > jsonLength){
+            let newTweets = []
+            for(i = jsonLength; i < dataObj.length; i++){
+                //console.log("NEW Tweet: " + dataObj[i])
+                newTweets.push(dataObj[i])
+            }
+            //console.log(newTweets)
+            jsonLength = dataObj.length
+            //emit update to client
+            pushTweetData(dataObj)
+        }
+    }catch{
+        console.log("json file not ready yet")
+    }
 }
 
 function turnOnRealTimeUpdate(){
     enableRealTimeUpdate = true
-    realTimeUpdate()
+    jsonLength = 0
+    //schedule update
+    setTimeout(() =>{
+        realTimeUpdate()
+    }, 500)
 
     //execute bash script to call python data collector
     exec("bash ./startCollector.bash", (error, stdout, stderr) => {
