@@ -148,7 +148,7 @@ function realTimeUpdate(){
     }
 }
 
-function turnOnRealTimeUpdate(){
+function turnOnRealTimeUpdate(searchKey){
     enableRealTimeUpdate = true
     //schedule update
     setTimeout(() =>{
@@ -156,7 +156,7 @@ function turnOnRealTimeUpdate(){
     }, 500)
 
     //execute bash script to call python data collector
-    exec("bash ./startCollector.bash", (error, stdout, stderr) => {
+    exec("bash ./startCollector.bash " + searchKey.replace(/\s/g, '#'), (error, stdout, stderr) => {
         if (error) {
             console.log(`error: ${error.message}`);
             return;
@@ -193,7 +193,7 @@ io.on('connection', function(socket){
         dataObj = JSON.parse(data)
         let enableRealTimeUpdate;
         if (dataObj.on) {
-            turnOnRealTimeUpdate()
+            turnOnRealTimeUpdate(dataObj.key)
         } else {
             //turn off data collection
             turnOffRealTimeUpdate()

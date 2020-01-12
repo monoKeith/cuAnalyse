@@ -1,4 +1,4 @@
 #!/bin/bash
 export PATH=/opt/miniconda3/bin:$PATH
 source activate cuhacking
-python3 ./RBC_tracking/streaming.py
+python3 ./RBC_tracking/streaming.py -kw $1

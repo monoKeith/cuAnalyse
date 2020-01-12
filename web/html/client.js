@@ -3,6 +3,7 @@ infoPane = document.getElementById("infoPane")
 collectButton = document.getElementById("collectButton")
 collectionButtonReleased = true
 systemLogArea = document.getElementById("systemLogArea")
+keywordInput = document.getElementById("keywordInput")
 
 function pushInfo(msg) {
     htmlContent =  "<div id=\"infoCard\">"
@@ -43,13 +44,18 @@ function collectDataButton(){
     console.log("Collect Data Button!")
     // init request data obj
     let data = {
-        'on': true
+        'on': true,
+        'key': 'RBC'
     }
     if(collectionButtonReleased){
         collectButton.style.background = '#fc9088'
         updateSystemLog("Collecting data....")
         collectButton.innerHTML = '<h5>STOP</h5>'
         collectionButtonReleased = false
+        if(keywordInput.value != ""){
+            console.log('keyword: ' + keywordInput.value)
+            data.key = keywordInput.value
+        }
     }else{
         collectButton.style.background = '#86db9d'
         updateSystemLog("Stop collecting data....")
@@ -90,6 +96,6 @@ socket.on('analyseConfirm', function () {
     console.log("Received analyse confirmation from Socket!")
 })
 
-$(document).ready(function () {
-    }
-)
+
+// set default text on input field
+keywordInput.value = 'RBC'
