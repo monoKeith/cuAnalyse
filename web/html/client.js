@@ -92,8 +92,10 @@ socket.on('tweetData', function (data) {
     updateInfoPane(returnData)
 
 })
-socket.on('analyseConfirm', function () {
+socket.on('analyseConfirm', function (data) {
     console.log("Received analyse confirmation from Socket!")
+    let returnData = JSON.parse(data)
+    updateSystemLog("Analyser: " + returnData.report)
 })
 
 

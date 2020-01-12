@@ -187,6 +187,33 @@ function turnOffRealTimeUpdate(){
     });
 }
 
+function runAnalysis(){
+    analysisReport('Started')
+    //start analszer
+    exec("bash ./analyze.bash", (error, stdout, stderr) => {
+        if (error) {
+            analysisReport(`error: ${error.message}`)
+            console.log(`error: ${error.message}`);
+            return;
+        }
+        if (stderr) {
+            analysisReport(`stderr: ${stderr}`)
+            console.log(`stderr: ${stderr}`);
+            return;
+        }
+        analysisReport(`stdout: ${stdout}`)
+        console.log(`stdout: ${stdout}`);
+    });
+}
+
+function analysisReport(report){
+    let msg = {
+        'report': report
+    }
+    let jsonString = JSON.stringify(msg)
+    io.emit('analyseConfirm', jsonString)
+}
+
 io.on('connection', function(socket){
     socket.on('tweetRequest', function(data){
         console.log('RECEIVED tweet request')
@@ -205,7 +232,7 @@ io.on('connection', function(socket){
     });
     socket.on('analyseRequest', function(data){
         console.log('RECEIVED analyse request')
-        io.emit('analyseConfirm')
+        runAnalysis()
     });
 })
 
