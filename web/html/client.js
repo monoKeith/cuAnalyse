@@ -1,5 +1,7 @@
 console.log("Client script running!")
 infoPane = document.getElementById("infoPane")
+collectButton = document.getElementById("collectButton")
+collectionButtonReleased = true
 
 function pushInfo(msg) {
     htmlContent =  "<div id=\"infoCard\">"
@@ -26,7 +28,22 @@ function updateInfoPane(data){
 
 function collectDataButton(){
     console.log("Collect Data Button!")
-    socket.emit('tweetRequest')
+    // init request data obj
+    let data = {
+        'on': true
+    }
+    if(collectionButtonReleased){
+        collectButton.style.background = '#fc9088'
+        collectButton.innerHTML = '<h5>STOP</h5>'
+        collectionButtonReleased = false
+    }else{
+        collectButton.style.background = '#86db9d'
+        collectButton.innerHTML = '<h5>Collect Data</h5>'
+        collectionButtonReleased = true
+        data.on = false
+    }
+    let jsonString = JSON.stringify(data)
+    socket.emit('tweetRequest', jsonString)
 }
 
 function importDataButton(){
@@ -51,3 +68,6 @@ socket.on('analyseConfirm', function () {
     console.log("Received analyse confirmation from Socket!")
 })
 
+$(document).ready(function () {
+    }
+)
