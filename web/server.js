@@ -103,25 +103,15 @@ function handler(request, response) {
     })
 }
 
-io.on('connection', function(socket){
-    socket.on('tweetRequest', function(data){
-        console.log('RECEIVED tweet request')
-        dataObj = JSON.parse(data)
-        if(dataObj.on){
-            pushData();
-        }else{
-            //turn off data collection
-            console.log("Received collecter OFF msg")
-            
-        }
-
-    });
-
-    socket.on('analyseRequest', function(data){
-        console.log('RECEIVED analyse request')
-        io.emit('analyseConfirm')
-    });
-})
+function importData(){
+    // read test json file!
+    const fs = require('fs');
+    let rawdata = fs.readFileSync('testTwitterContent.json');
+    let dataObj = JSON.parse(rawdata)
+    // send data to client
+    let jsonString = JSON.stringify(dataObj)
+    io.emit('tweetData', jsonString) //broadcast to everyone including sender
+}
 
 function pushData(){
     // read test json file!
@@ -133,6 +123,26 @@ function pushData(){
     io.emit('tweetData', jsonString) //broadcast to everyone including sender
 }
 
+io.on('connection', function(socket){
+    socket.on('tweetRequest', function(data){
+        console.log('RECEIVED tweet request')
+        dataObj = JSON.parse(data)
+        if(dataObj.on){
+            pushData();
+        }else{
+            //turn off data collection
+            console.log("Received collecter OFF msg")
+        }
+    });
+    socket.on('importRequest', function(){
+        console.log('RECEIVED analyse request')
+        importData()
+    });
+    socket.on('analyseRequest', function(data){
+        console.log('RECEIVED analyse request')
+        io.emit('analyseConfirm')
+    });
+})
 
 console.log("Server Running at PORT 3000  CNTL-C to quit")
 console.log("To Test")

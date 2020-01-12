@@ -16,12 +16,13 @@ h4{
     font-family: "Apple SD Gothic Neo";
     font-size: 15px;
     padding: 0px;
-    margin: 0px;
     color: darkgrey;
     background-color: transparent;
     width: 300px;
     display: inline;
+    alignment: center;
     margin-left: 20px;
+    text-align: right;
 }
 h5{
     font-family: "Apple SD Gothic Neo";
@@ -68,15 +69,15 @@ p{
 #infoPane{
     background: #e4e8f0;
     overflow: scroll;
-    width: 440px;
+    width: 620px;
     height: 825px;
     border-radius: 10px;
     margin: 5px;
     padding: 5px;
+    display: inline-block;
 }
-
 #infoCard{
-    width: 400px;
+    width: 580px;
     min-height: 80px;
     border-radius: 10px;
     background: #c3dceb;
@@ -84,7 +85,15 @@ p{
     padding: 10px;
     text-align: left;
 }
-
+#rightPane{
+    width: 620px;
+    height: 825px;
+    background: #e4e8f0;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
 #bottomContent{
     text-align: center;
     background-color: darkgray;
@@ -104,7 +113,7 @@ p{
     border-width: 0;
     text-align: center;
     padding: 10px;
-    margin: 5px 135px;
+    margin: 5px 80px;
 }
 .userIcon{
     border-radius: 10px;

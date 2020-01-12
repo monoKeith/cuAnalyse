@@ -48,11 +48,17 @@ function collectDataButton(){
 
 function importDataButton(){
     console.log("Import Data Button!")
+    socket.emit('importRequest')
 }
 
 function analyseDataButton(){
     console.log("Analyse Data Button!")
     socket.emit('analyseRequest')
+}
+
+function clearDataButton(){
+    console.log("Clear Data Button!")
+    clearInfo()
 }
 
 let socket = io('http://' + window.document.location.host)
