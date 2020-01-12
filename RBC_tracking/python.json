@@ -1,0 +1,1871 @@
+{
+  "created_at": "Sat Jan 11 19:19:04 +0000 2020",
+  "id": 1216077080229707777,
+  "id_str": "1216077080229707777",
+  "text": "Let's not fear them! #programming #coding #programmer #javascript #coder #php #java #programminglife #developer\u2026 https:\/\/t.co\/3dr5hDBM5D",
+  "display_text_range": [0, 140],
+  "source": "\u003ca href=\"https:\/\/ifttt.com\" rel=\"nofollow\"\u003eIFTTT\u003c\/a\u003e",
+  "truncated": true,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 1115905374190800896,
+    "id_str": "1115905374190800896",
+    "name": "Mother Of Node.js",
+    "screen_name": "motherofnodejs",
+    "location": "404",
+    "url": null,
+    "description": "#programmer",
+    "translator_type": "none",
+    "protected": false,
+    "verified": false,
+    "followers_count": 417,
+    "friends_count": 1,
+    "listed_count": 3,
+    "favourites_count": 1,
+    "statuses_count": 5524,
+    "created_at": "Wed Apr 10 09:12:28 +0000 2019",
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "",
+    "profile_background_image_url_https": "",
+    "profile_background_tile": false,
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1115906484125208577\/pO_Ry4yJ_normal.png",
+    "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1115906484125208577\/pO_Ry4yJ_normal.png",
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "extended_tweet": {
+    "full_text": "Let's not fear them! #programming #coding #programmer #javascript #coder #php #java #programminglife #developer #python #programmers #linux #css #programmingisfun #code #programmingmemes #html #codinglife #codingisfun #programmingjokes #webdeveloper #codingpics #programmersl\u2026 https:\/\/t.co\/J9vBnQVODf",
+    "display_text_range": [0, 276],
+    "entities": {
+      "hashtags": [{
+        "text": "programming",
+        "indices": [21, 33]
+      }, {
+        "text": "coding",
+        "indices": [34, 41]
+      }, {
+        "text": "programmer",
+        "indices": [42, 53]
+      }, {
+        "text": "javascript",
+        "indices": [54, 65]
+      }, {
+        "text": "coder",
+        "indices": [66, 72]
+      }, {
+        "text": "php",
+        "indices": [73, 77]
+      }, {
+        "text": "java",
+        "indices": [78, 83]
+      }, {
+        "text": "programminglife",
+        "indices": [84, 100]
+      }, {
+        "text": "developer",
+        "indices": [101, 111]
+      }, {
+        "text": "python",
+        "indices": [112, 119]
+      }, {
+        "text": "programmers",
+        "indices": [120, 132]
+      }, {
+        "text": "linux",
+        "indices": [133, 139]
+      }, {
+        "text": "css",
+        "indices": [140, 144]
+      }, {
+        "text": "programmingisfun",
+        "indices": [145, 162]
+      }, {
+        "text": "code",
+        "indices": [163, 168]
+      }, {
+        "text": "programmingmemes",
+        "indices": [169, 186]
+      }, {
+        "text": "html",
+        "indices": [187, 192]
+      }, {
+        "text": "codinglife",
+        "indices": [193, 204]
+      }, {
+        "text": "codingisfun",
+        "indices": [205, 217]
+      }, {
+        "text": "programmingjokes",
+        "indices": [218, 235]
+      }, {
+        "text": "webdeveloper",
+        "indices": [236, 249]
+      }, {
+        "text": "codingpics",
+        "indices": [250, 261]
+      }, {
+        "text": "programmersl",
+        "indices": [262, 275]
+      }],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [{
+        "id": 1216077079055388674,
+        "id_str": "1216077079055388674",
+        "indices": [277, 300],
+        "media_url": "http:\/\/pbs.twimg.com\/media\/EOBfqQyXUAIJb9J.jpg",
+        "media_url_https": "https:\/\/pbs.twimg.com\/media\/EOBfqQyXUAIJb9J.jpg",
+        "url": "https:\/\/t.co\/J9vBnQVODf",
+        "display_url": "pic.twitter.com\/J9vBnQVODf",
+        "expanded_url": "https:\/\/twitter.com\/motherofnodejs\/status\/1216077080229707777\/photo\/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 600,
+            "h": 325,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 600,
+            "h": 325,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 600,
+            "h": 325,
+            "resize": "fit"
+          }
+        }
+      }]
+    },
+    "extended_entities": {
+      "media": [{
+        "id": 1216077079055388674,
+        "id_str": "1216077079055388674",
+        "indices": [277, 300],
+        "media_url": "http:\/\/pbs.twimg.com\/media\/EOBfqQyXUAIJb9J.jpg",
+        "media_url_https": "https:\/\/pbs.twimg.com\/media\/EOBfqQyXUAIJb9J.jpg",
+        "url": "https:\/\/t.co\/J9vBnQVODf",
+        "display_url": "pic.twitter.com\/J9vBnQVODf",
+        "expanded_url": "https:\/\/twitter.com\/motherofnodejs\/status\/1216077080229707777\/photo\/1",
+        "type": "photo",
+        "sizes": {
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "large": {
+            "w": 600,
+            "h": 325,
+            "resize": "fit"
+          },
+          "small": {
+            "w": 600,
+            "h": 325,
+            "resize": "fit"
+          },
+          "medium": {
+            "w": 600,
+            "h": 325,
+            "resize": "fit"
+          }
+        }
+      }]
+    }
+  },
+  "quote_count": 0,
+  "reply_count": 0,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "entities": {
+    "hashtags": [{
+      "text": "programming",
+      "indices": [21, 33]
+    }, {
+      "text": "coding",
+      "indices": [34, 41]
+    }, {
+      "text": "programmer",
+      "indices": [42, 53]
+    }, {
+      "text": "javascript",
+      "indices": [54, 65]
+    }, {
+      "text": "coder",
+      "indices": [66, 72]
+    }, {
+      "text": "php",
+      "indices": [73, 77]
+    }, {
+      "text": "java",
+      "indices": [78, 83]
+    }, {
+      "text": "programminglife",
+      "indices": [84, 100]
+    }, {
+      "text": "developer",
+      "indices": [101, 111]
+    }],
+    "urls": [{
+      "url": "https:\/\/t.co\/3dr5hDBM5D",
+      "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/1216077080229707777",
+      "display_url": "twitter.com\/i\/web\/status\/1\u2026",
+      "indices": [113, 136]
+    }],
+    "user_mentions": [],
+    "symbols": []
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "filter_level": "low",
+  "lang": "en",
+  "timestamp_ms": "1578770344203"
+} {
+  "created_at": "Sat Jan 11 19:26:50 +0000 2020",
+  "id": 1216079036562182144,
+  "id_str": "1216079036562182144",
+  "text": "RT @realpython: \ud83d\udc0d\ud83d\udcf0 Traditional Face Detection With Python \n\nIn this article, you'll learn about a historically important algorithm for obje\u2026",
+  "source": "\u003ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 281685032,
+    "id_str": "281685032",
+    "name": "Karl",
+    "screen_name": "cargalco",
+    "location": null,
+    "url": null,
+    "description": null,
+    "translator_type": "none",
+    "protected": false,
+    "verified": false,
+    "followers_count": 225,
+    "friends_count": 355,
+    "listed_count": 8,
+    "favourites_count": 112010,
+    "statuses_count": 6584,
+    "created_at": "Wed Apr 13 19:25:17 +0000 2011",
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "profile_background_color": "1A1B1F",
+    "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme9\/bg.gif",
+    "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme9\/bg.gif",
+    "profile_background_tile": false,
+    "profile_link_color": "2FC2EF",
+    "profile_sidebar_border_color": "181A1E",
+    "profile_sidebar_fill_color": "252429",
+    "profile_text_color": "666666",
+    "profile_use_background_image": true,
+    "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/2655949058\/5b2b5be62c945d1662c193261f62cf56_normal.jpeg",
+    "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/2655949058\/5b2b5be62c945d1662c193261f62cf56_normal.jpeg",
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+    "created_at": "Fri Jan 10 23:30:02 +0000 2020",
+    "id": 1215777849363304448,
+    "id_str": "1215777849363304448",
+    "text": "\ud83d\udc0d\ud83d\udcf0 Traditional Face Detection With Python \n\nIn this article, you'll learn about a historically important algorithm\u2026 https:\/\/t.co\/A4a93p7Ffn",
+    "source": "\u003ca href=\"https:\/\/socialbee.io\/\" rel=\"nofollow\"\u003eSocialBee.io v2\u003c\/a\u003e",
+    "truncated": true,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 745911914,
+      "id_str": "745911914",
+      "name": "Real Python",
+      "screen_name": "realpython",
+      "location": null,
+      "url": "http:\/\/realpython.com",
+      "description": "Python developer resources: #Python tutorials, video courses, sample projects, news, and more!",
+      "translator_type": "none",
+      "protected": false,
+      "verified": false,
+      "followers_count": 63830,
+      "friends_count": 129,
+      "listed_count": 1867,
+      "favourites_count": 51153,
+      "statuses_count": 38706,
+      "created_at": "Wed Aug 08 20:44:42 +0000 2012",
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/952818577719091200\/rBCQPkA9_normal.jpg",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/952818577719091200\/rBCQPkA9_normal.jpg",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/745911914\/1528248000",
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "extended_tweet": {
+      "full_text": "\ud83d\udc0d\ud83d\udcf0 Traditional Face Detection With Python \n\nIn this article, you'll learn about a historically important algorithm for object detection that can be successfully applied to finding the location of a human face within an image \n#python https:\/\/t.co\/LXchN6R4KA",
+      "display_text_range": [0, 257],
+      "entities": {
+        "hashtags": [{
+          "text": "python",
+          "indices": [226, 233]
+        }],
+        "urls": [{
+          "url": "https:\/\/t.co\/LXchN6R4KA",
+          "expanded_url": "https:\/\/realpython.com\/traditional-face-detection-python\/",
+          "display_url": "realpython.com\/traditional-fa\u2026",
+          "indices": [234, 257]
+        }],
+        "user_mentions": [],
+        "symbols": []
+      }
+    },
+    "quote_count": 0,
+    "reply_count": 0,
+    "retweet_count": 13,
+    "favorite_count": 22,
+    "entities": {
+      "hashtags": [],
+      "urls": [{
+        "url": "https:\/\/t.co\/A4a93p7Ffn",
+        "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/1215777849363304448",
+        "display_url": "twitter.com\/i\/web\/status\/1\u2026",
+        "indices": [116, 139]
+      }],
+      "user_mentions": [],
+      "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "en"
+  },
+  "is_quote_status": false,
+  "quote_count": 0,
+  "reply_count": 0,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "entities": {
+    "hashtags": [],
+    "urls": [],
+    "user_mentions": [{
+      "screen_name": "realpython",
+      "name": "Real Python",
+      "id": 745911914,
+      "id_str": "745911914",
+      "indices": [3, 14]
+    }],
+    "symbols": []
+  },
+  "favorited": false,
+  "retweeted": false,
+  "filter_level": "low",
+  "lang": "en",
+  "timestamp_ms": "1578770810629"
+} {
+  "created_at": "Sat Jan 11 19:27:06 +0000 2020",
+  "id": 1216079102370897923,
+  "id_str": "1216079102370897923",
+  "text": "RT @Deep_In_Depth: Neural DSP Introduces the Quad Cortex https:\/\/t.co\/9VCKaOlEPE #DeepLearning #NeuralNetworks  #ArtificialIntelligence #AI\u2026",
+  "source": "\u003ca href=\"http:\/\/twinybots.com\" rel=\"nofollow\"\u003eTwinyBots\u003c\/a\u003e",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 1170931428562833409,
+    "id_str": "1170931428562833409",
+    "name": "KCGCSE",
+    "screen_name": "kcgcse",
+    "location": "Karapakkam, Chennai, TN, IN",
+    "url": "https:\/\/kcgcollege.ac.in\/departments\/computer-science-engineering-new\/",
+    "description": "Department of CSE produces creative and technically strong engineers leading to research pioneering solutions for global challenges.",
+    "translator_type": "none",
+    "protected": false,
+    "verified": false,
+    "followers_count": 434,
+    "friends_count": 799,
+    "listed_count": 10,
+    "favourites_count": 203,
+    "statuses_count": 4679,
+    "created_at": "Mon Sep 09 05:27:07 +0000 2019",
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "",
+    "profile_background_image_url_https": "",
+    "profile_background_tile": false,
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1190150270300442626\/o0ktppk0_normal.jpg",
+    "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1190150270300442626\/o0ktppk0_normal.jpg",
+    "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/1170931428562833409\/1568087697",
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+    "created_at": "Sat Jan 11 18:12:03 +0000 2020",
+    "id": 1216060214295900163,
+    "id_str": "1216060214295900163",
+    "text": "Neural DSP Introduces the Quad Cortex https:\/\/t.co\/9VCKaOlEPE #DeepLearning #NeuralNetworks\u2026 https:\/\/t.co\/B4AVzAWBs9",
+    "source": "\u003ca href=\"https:\/\/buffer.com\" rel=\"nofollow\"\u003eBuffer\u003c\/a\u003e",
+    "truncated": true,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 861861525883158528,
+      "id_str": "861861525883158528",
+      "name": "Deep_In_Depth",
+      "screen_name": "Deep_In_Depth",
+      "location": "Digne-les-Bains, France",
+      "url": "https:\/\/www.linkedin.com\/in\/eric-feuilleaubois-ph-d-43ab0925\/",
+      "description": "#DeepLearning, #NeuralNetworks, #MachineLearning, #AI & #AIChips curated News (and a few \"olds\") and a bit of #DataScience #AutonomousVehicles, #Robotics ...",
+      "translator_type": "none",
+      "protected": false,
+      "verified": false,
+      "followers_count": 6580,
+      "friends_count": 6123,
+      "listed_count": 112,
+      "favourites_count": 1728,
+      "statuses_count": 19402,
+      "created_at": "Tue May 09 08:32:55 +0000 2017",
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_link_color": "981CEB",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/861866967493431296\/PIjaSD4g_normal.jpg",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/861866967493431296\/PIjaSD4g_normal.jpg",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/861861525883158528\/1494997363",
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "extended_tweet": {
+      "full_text": "Neural DSP Introduces the Quad Cortex https:\/\/t.co\/9VCKaOlEPE #DeepLearning #NeuralNetworks  #ArtificialIntelligence #AIChips #MachineLearning #ReinforcementLearning #AGI #AutonomousCar #NewMobility #Robotics #DL #AI #ML #DNN #NLP #RNN #TensorFlow #Keras #PyTorch #Python",
+      "display_text_range": [0, 271],
+      "entities": {
+        "hashtags": [{
+          "text": "DeepLearning",
+          "indices": [62, 75]
+        }, {
+          "text": "NeuralNetworks",
+          "indices": [76, 91]
+        }, {
+          "text": "ArtificialIntelligence",
+          "indices": [93, 116]
+        }, {
+          "text": "AIChips",
+          "indices": [117, 125]
+        }, {
+          "text": "MachineLearning",
+          "indices": [126, 142]
+        }, {
+          "text": "ReinforcementLearning",
+          "indices": [143, 165]
+        }, {
+          "text": "AGI",
+          "indices": [166, 170]
+        }, {
+          "text": "AutonomousCar",
+          "indices": [171, 185]
+        }, {
+          "text": "NewMobility",
+          "indices": [186, 198]
+        }, {
+          "text": "Robotics",
+          "indices": [199, 208]
+        }, {
+          "text": "DL",
+          "indices": [209, 212]
+        }, {
+          "text": "AI",
+          "indices": [213, 216]
+        }, {
+          "text": "ML",
+          "indices": [217, 220]
+        }, {
+          "text": "DNN",
+          "indices": [221, 225]
+        }, {
+          "text": "NLP",
+          "indices": [226, 230]
+        }, {
+          "text": "RNN",
+          "indices": [231, 235]
+        }, {
+          "text": "TensorFlow",
+          "indices": [236, 247]
+        }, {
+          "text": "Keras",
+          "indices": [248, 254]
+        }, {
+          "text": "PyTorch",
+          "indices": [255, 263]
+        }, {
+          "text": "Python",
+          "indices": [264, 271]
+        }],
+        "urls": [{
+          "url": "https:\/\/t.co\/9VCKaOlEPE",
+          "expanded_url": "https:\/\/buff.ly\/2semc1u",
+          "display_url": "buff.ly\/2semc1u",
+          "indices": [38, 61]
+        }],
+        "user_mentions": [],
+        "symbols": []
+      }
+    },
+    "quote_count": 0,
+    "reply_count": 0,
+    "retweet_count": 6,
+    "favorite_count": 2,
+    "entities": {
+      "hashtags": [{
+        "text": "DeepLearning",
+        "indices": [62, 75]
+      }, {
+        "text": "NeuralNetworks",
+        "indices": [76, 91]
+      }],
+      "urls": [{
+        "url": "https:\/\/t.co\/9VCKaOlEPE",
+        "expanded_url": "https:\/\/buff.ly\/2semc1u",
+        "display_url": "buff.ly\/2semc1u",
+        "indices": [38, 61]
+      }, {
+        "url": "https:\/\/t.co\/B4AVzAWBs9",
+        "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/1216060214295900163",
+        "display_url": "twitter.com\/i\/web\/status\/1\u2026",
+        "indices": [93, 116]
+      }],
+      "user_mentions": [],
+      "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "en"
+  },
+  "is_quote_status": false,
+  "quote_count": 0,
+  "reply_count": 0,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "entities": {
+    "hashtags": [{
+      "text": "DeepLearning",
+      "indices": [81, 94]
+    }, {
+      "text": "NeuralNetworks",
+      "indices": [95, 110]
+    }, {
+      "text": "ArtificialIntelligence",
+      "indices": [112, 135]
+    }],
+    "urls": [{
+      "url": "https:\/\/t.co\/9VCKaOlEPE",
+      "expanded_url": "https:\/\/buff.ly\/2semc1u",
+      "display_url": "buff.ly\/2semc1u",
+      "indices": [57, 80]
+    }],
+    "user_mentions": [{
+      "screen_name": "Deep_In_Depth",
+      "name": "Deep_In_Depth",
+      "id": 861861525883158528,
+      "id_str": "861861525883158528",
+      "indices": [3, 17]
+    }],
+    "symbols": []
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "filter_level": "low",
+  "lang": "en",
+  "timestamp_ms": "1578770826319"
+} {
+  "created_at": "Sat Jan 11 19:27:38 +0000 2020",
+  "id": 1216079237976903686,
+  "id_str": "1216079237976903686",
+  "text": "RT @fsnetworker: UNDERSTANDING NETDEVOPS TOOLCHAIN AND INTEGRATION https:\/\/t.co\/onxII6miQ6 #python #ansible #devops #linux #sdn #iot #netwo\u2026",
+  "source": "\u003ca href=\"https:\/\/avcourt.github.io\/tiny-cluster\" rel=\"nofollow\"\u003edd-bot\u003c\/a\u003e",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 1152052858721918977,
+    "id_str": "1152052858721918977",
+    "name": "LinuxDreams",
+    "screen_name": "LinuxDreams",
+    "location": "digitalocean",
+    "url": null,
+    "description": "A bot that retweets #linux. Written by @avcourt.",
+    "translator_type": "none",
+    "protected": false,
+    "verified": false,
+    "followers_count": 1128,
+    "friends_count": 1,
+    "listed_count": 41,
+    "favourites_count": 27,
+    "statuses_count": 74985,
+    "created_at": "Fri Jul 19 03:09:40 +0000 2019",
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "",
+    "profile_background_image_url_https": "",
+    "profile_background_tile": false,
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1153139246024286213\/VIdgxJuX_normal.jpg",
+    "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1153139246024286213\/VIdgxJuX_normal.jpg",
+    "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/1152052858721918977\/1574484974",
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+    "created_at": "Sat Jan 11 19:26:00 +0000 2020",
+    "id": 1216078828038057984,
+    "id_str": "1216078828038057984",
+    "text": "UNDERSTANDING NETDEVOPS TOOLCHAIN AND INTEGRATION https:\/\/t.co\/onxII6miQ6 #python #ansible #devops #linux #sdn #iot\u2026 https:\/\/t.co\/LS8Vxb9LE9",
+    "source": "\u003ca href=\"https:\/\/drumup.io\" rel=\"nofollow\"\u003edrumup.io\u003c\/a\u003e",
+    "truncated": true,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 904100086094942209,
+      "id_str": "904100086094942209",
+      "name": "Full Stack Networker",
+      "screen_name": "fsnetworker",
+      "location": "San Francisco, CA",
+      "url": "https:\/\/www.fullstacknetworker.com",
+      "description": "Network Engineers: Transform Your Skillset and Level Up Your Professional Career by Embracing #NetDevOps & Automation at-scale. Let's do it together. #DevNet",
+      "translator_type": "none",
+      "protected": false,
+      "verified": false,
+      "followers_count": 150,
+      "friends_count": 56,
+      "listed_count": 6,
+      "favourites_count": 3,
+      "statuses_count": 1832,
+      "created_at": "Sat Sep 02 21:53:52 +0000 2017",
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_link_color": "FF691F",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/904100931712770048\/15r9aZMf_normal.jpg",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/904100931712770048\/15r9aZMf_normal.jpg",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/904100086094942209\/1548704811",
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "extended_tweet": {
+      "full_text": "UNDERSTANDING NETDEVOPS TOOLCHAIN AND INTEGRATION https:\/\/t.co\/onxII6miQ6 #python #ansible #devops #linux #sdn #iot #networkengineer #openinfrastructure #netdevops #networkingroles",
+      "display_text_range": [0, 180],
+      "entities": {
+        "hashtags": [{
+          "text": "python",
+          "indices": [74, 81]
+        }, {
+          "text": "ansible",
+          "indices": [82, 90]
+        }, {
+          "text": "devops",
+          "indices": [91, 98]
+        }, {
+          "text": "linux",
+          "indices": [99, 105]
+        }, {
+          "text": "sdn",
+          "indices": [106, 110]
+        }, {
+          "text": "iot",
+          "indices": [111, 115]
+        }, {
+          "text": "networkengineer",
+          "indices": [116, 132]
+        }, {
+          "text": "openinfrastructure",
+          "indices": [133, 152]
+        }, {
+          "text": "netdevops",
+          "indices": [153, 163]
+        }, {
+          "text": "networkingroles",
+          "indices": [164, 180]
+        }],
+        "urls": [{
+          "url": "https:\/\/t.co\/onxII6miQ6",
+          "expanded_url": "https:\/\/www.fullstacknetworker.com\/understanding-netdevops-toolchain-and-integration\/",
+          "display_url": "fullstacknetworker.com\/understanding-\u2026",
+          "indices": [50, 73]
+        }],
+        "user_mentions": [],
+        "symbols": []
+      }
+    },
+    "quote_count": 0,
+    "reply_count": 0,
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [{
+        "text": "python",
+        "indices": [74, 81]
+      }, {
+        "text": "ansible",
+        "indices": [82, 90]
+      }, {
+        "text": "devops",
+        "indices": [91, 98]
+      }, {
+        "text": "linux",
+        "indices": [99, 105]
+      }, {
+        "text": "sdn",
+        "indices": [106, 110]
+      }, {
+        "text": "iot",
+        "indices": [111, 115]
+      }],
+      "urls": [{
+        "url": "https:\/\/t.co\/onxII6miQ6",
+        "expanded_url": "https:\/\/www.fullstacknetworker.com\/understanding-netdevops-toolchain-and-integration\/",
+        "display_url": "fullstacknetworker.com\/understanding-\u2026",
+        "indices": [50, 73]
+      }, {
+        "url": "https:\/\/t.co\/LS8Vxb9LE9",
+        "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/1216078828038057984",
+        "display_url": "twitter.com\/i\/web\/status\/1\u2026",
+        "indices": [117, 140]
+      }],
+      "user_mentions": [],
+      "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "en"
+  },
+  "is_quote_status": false,
+  "quote_count": 0,
+  "reply_count": 0,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "entities": {
+    "hashtags": [{
+      "text": "python",
+      "indices": [91, 98]
+    }, {
+      "text": "ansible",
+      "indices": [99, 107]
+    }, {
+      "text": "devops",
+      "indices": [108, 115]
+    }, {
+      "text": "linux",
+      "indices": [116, 122]
+    }, {
+      "text": "sdn",
+      "indices": [123, 127]
+    }, {
+      "text": "iot",
+      "indices": [128, 132]
+    }],
+    "urls": [{
+      "url": "https:\/\/t.co\/onxII6miQ6",
+      "expanded_url": "https:\/\/www.fullstacknetworker.com\/understanding-netdevops-toolchain-and-integration\/",
+      "display_url": "fullstacknetworker.com\/understanding-\u2026",
+      "indices": [67, 90]
+    }],
+    "user_mentions": [{
+      "screen_name": "fsnetworker",
+      "name": "Full Stack Networker",
+      "id": 904100086094942209,
+      "id_str": "904100086094942209",
+      "indices": [3, 15]
+    }],
+    "symbols": []
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "filter_level": "low",
+  "lang": "en",
+  "timestamp_ms": "1578770858650"
+} {
+  "created_at": "Sat Jan 11 20:14:43 +0000 2020",
+  "id": 1216091085698629633,
+  "id_str": "1216091085698629633",
+  "text": "Podcastor Troy: Thoughts on AI, Elon Musk, etc.: \n ___ \n #podcastortroy #podcast #AI  #elonmusk #machinelearning\u2026 https:\/\/t.co\/BhxFDTTDPx",
+  "source": "\u003ca href=\"https:\/\/cheapbotsdonequick.com\" rel=\"nofollow\"\u003eCheap Bots, Done Quick!\u003c\/a\u003e",
+  "truncated": true,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 1187684337380143106,
+    "id_str": "1187684337380143106",
+    "name": "Merkantilist",
+    "screen_name": "DerMerkantilist",
+    "location": "Hamburg",
+    "url": "https:\/\/bit.ly\/344NBjp",
+    "description": "Everything happens for a Season! | (A) I work for @YoussefZemhoute | #Consulting #Philosophy #Essays #Texts #learn #AI #Economy #eGovernment #bitcoin #intellect",
+    "translator_type": "none",
+    "protected": false,
+    "verified": false,
+    "followers_count": 7,
+    "friends_count": 49,
+    "listed_count": 0,
+    "favourites_count": 4,
+    "statuses_count": 2245,
+    "created_at": "Fri Oct 25 10:56:36 +0000 2019",
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "",
+    "profile_background_image_url_https": "",
+    "profile_background_tile": false,
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1204090431149133827\/4HbaZ-SL_normal.jpg",
+    "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1204090431149133827\/4HbaZ-SL_normal.jpg",
+    "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/1187684337380143106\/1575912482",
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "extended_tweet": {
+    "full_text": "Podcastor Troy: Thoughts on AI, Elon Musk, etc.: \n ___ \n #podcastortroy #podcast #AI  #elonmusk #machinelearning #generation #artificialintelligence #python #digital #bitcoin #engineering",
+    "display_text_range": [0, 187],
+    "entities": {
+      "hashtags": [{
+        "text": "podcastortroy",
+        "indices": [57, 71]
+      }, {
+        "text": "podcast",
+        "indices": [72, 80]
+      }, {
+        "text": "AI",
+        "indices": [81, 84]
+      }, {
+        "text": "elonmusk",
+        "indices": [86, 95]
+      }, {
+        "text": "machinelearning",
+        "indices": [96, 112]
+      }, {
+        "text": "generation",
+        "indices": [113, 124]
+      }, {
+        "text": "artificialintelligence",
+        "indices": [125, 148]
+      }, {
+        "text": "python",
+        "indices": [149, 156]
+      }, {
+        "text": "digital",
+        "indices": [157, 165]
+      }, {
+        "text": "bitcoin",
+        "indices": [166, 174]
+      }, {
+        "text": "engineering",
+        "indices": [175, 187]
+      }],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": []
+    }
+  },
+  "quote_count": 0,
+  "reply_count": 0,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "entities": {
+    "hashtags": [{
+      "text": "podcastortroy",
+      "indices": [57, 71]
+    }, {
+      "text": "podcast",
+      "indices": [72, 80]
+    }, {
+      "text": "AI",
+      "indices": [81, 84]
+    }, {
+      "text": "elonmusk",
+      "indices": [86, 95]
+    }, {
+      "text": "machinelearning",
+      "indices": [96, 112]
+    }],
+    "urls": [{
+      "url": "https:\/\/t.co\/BhxFDTTDPx",
+      "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/1216091085698629633",
+      "display_url": "twitter.com\/i\/web\/status\/1\u2026",
+      "indices": [114, 137]
+    }],
+    "user_mentions": [],
+    "symbols": []
+  },
+  "favorited": false,
+  "retweeted": false,
+  "filter_level": "low",
+  "lang": "en",
+  "timestamp_ms": "1578773683367"
+} {
+  "created_at": "Sat Jan 11 20:14:46 +0000 2020",
+  "id": 1216091096771633153,
+  "id_str": "1216091096771633153",
+  "text": "RT @ArunMadhanSingh: Day-98 of  #100DaysOfCode   #github   #Python \n@ortist   @vigneshtamizh \nhttps:\/\/t.co\/xOzCrBB4M9",
+  "source": "\u003ca href=\"https:\/\/twitter.com\/codedailybot\" rel=\"nofollow\"\u003ecodedailybot\u003c\/a\u003e",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 1204128767251230720,
+    "id_str": "1204128767251230720",
+    "name": "#100daysOfCode",
+    "screen_name": "codedailybot",
+    "location": "#codedaily",
+    "url": null,
+    "description": "follow me. #100daysOfCode  #coding  #hourofcode or code related\nmade with \u2764\ufe0f + node.js by @yunkidev",
+    "translator_type": "none",
+    "protected": false,
+    "verified": false,
+    "followers_count": 535,
+    "friends_count": 1,
+    "listed_count": 24,
+    "favourites_count": 264,
+    "statuses_count": 47912,
+    "created_at": "Mon Dec 09 20:01:02 +0000 2019",
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "",
+    "profile_background_image_url_https": "",
+    "profile_background_tile": false,
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1204131757534171136\/Hdf5uixg_normal.png",
+    "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1204131757534171136\/Hdf5uixg_normal.png",
+    "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/1204128767251230720\/1575923213",
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+    "created_at": "Sat Jan 11 18:21:48 +0000 2020",
+    "id": 1216062671079870464,
+    "id_str": "1216062671079870464",
+    "text": "Day-98 of  #100DaysOfCode   #github   #Python \n@ortist   @vigneshtamizh \nhttps:\/\/t.co\/xOzCrBB4M9",
+    "source": "\u003ca href=\"https:\/\/mobile.twitter.com\" rel=\"nofollow\"\u003eTwitter Web App\u003c\/a\u003e",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1178682505047625729,
+      "id_str": "1178682505047625729",
+      "name": "Arun",
+      "screen_name": "ArunMadhanSingh",
+      "location": null,
+      "url": null,
+      "description": null,
+      "translator_type": "none",
+      "protected": false,
+      "verified": false,
+      "followers_count": 16,
+      "friends_count": 62,
+      "listed_count": 0,
+      "favourites_count": 133,
+      "statuses_count": 98,
+      "created_at": "Mon Sep 30 14:46:37 +0000 2019",
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": "",
+      "profile_background_image_url_https": "",
+      "profile_background_tile": false,
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "profile_image_url": "http:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png",
+      "profile_image_url_https": "https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/1178682505047625729\/1571583284",
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "quote_count": 0,
+    "reply_count": 0,
+    "retweet_count": 8,
+    "favorite_count": 4,
+    "entities": {
+      "hashtags": [{
+        "text": "100DaysOfCode",
+        "indices": [11, 25]
+      }, {
+        "text": "github",
+        "indices": [28, 35]
+      }, {
+        "text": "Python",
+        "indices": [38, 45]
+      }],
+      "urls": [{
+        "url": "https:\/\/t.co\/xOzCrBB4M9",
+        "expanded_url": "https:\/\/github.com\/ArunMadhanSingh\/python_programming\/blob\/master\/Day-98.ipynb",
+        "display_url": "github.com\/ArunMadhanSing\u2026",
+        "indices": [73, 96]
+      }],
+      "user_mentions": [{
+        "screen_name": "ortist",
+        "name": "ortist",
+        "id": 14429585,
+        "id_str": "14429585",
+        "indices": [47, 54]
+      }, {
+        "screen_name": "vigneshtamizh",
+        "name": "vignesh vikki",
+        "id": 352460009,
+        "id_str": "352460009",
+        "indices": [57, 71]
+      }],
+      "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "en"
+  },
+  "is_quote_status": false,
+  "quote_count": 0,
+  "reply_count": 0,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "entities": {
+    "hashtags": [{
+      "text": "100DaysOfCode",
+      "indices": [32, 46]
+    }, {
+      "text": "github",
+      "indices": [49, 56]
+    }, {
+      "text": "Python",
+      "indices": [59, 66]
+    }],
+    "urls": [{
+      "url": "https:\/\/t.co\/xOzCrBB4M9",
+      "expanded_url": "https:\/\/github.com\/ArunMadhanSingh\/python_programming\/blob\/master\/Day-98.ipynb",
+      "display_url": "github.com\/ArunMadhanSing\u2026",
+      "indices": [94, 117]
+    }],
+    "user_mentions": [{
+      "screen_name": "ArunMadhanSingh",
+      "name": "Arun",
+      "id": 1178682505047625729,
+      "id_str": "1178682505047625729",
+      "indices": [3, 19]
+    }, {
+      "screen_name": "ortist",
+      "name": "ortist",
+      "id": 14429585,
+      "id_str": "14429585",
+      "indices": [68, 75]
+    }, {
+      "screen_name": "vigneshtamizh",
+      "name": "vignesh vikki",
+      "id": 352460009,
+      "id_str": "352460009",
+      "indices": [78, 92]
+    }],
+    "symbols": []
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "filter_level": "low",
+  "lang": "en",
+  "timestamp_ms": "1578773686007"
+} {
+  "created_at": "Sat Jan 11 20:15:20 +0000 2020",
+  "id": 1216091240179097601,
+  "id_str": "1216091240179097601",
+  "text": "RT @Python_Dv: Master Python Interactively With PyGame: Ultimate Bootcamp\n\u261e https:\/\/t.co\/HtSIxRQcqL\n#python #developer \n\n95HDD3nW8bRZ https\u2026",
+  "source": "\u003ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 436832041,
+    "id_str": "436832041",
+    "name": "El Alquimista.",
+    "screen_name": "LSC_David_Isaac",
+    "location": "En tu cor\u00e1zon",
+    "url": null,
+    "description": "Desarrollador de software, web. Creador y productor independiente de videojuegos en mis tiempos libres y viciado de los mismos.",
+    "translator_type": "none",
+    "protected": false,
+    "verified": false,
+    "followers_count": 121,
+    "friends_count": 524,
+    "listed_count": 1,
+    "favourites_count": 8174,
+    "statuses_count": 7876,
+    "created_at": "Wed Dec 14 16:49:25 +0000 2011",
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "profile_background_color": "1A1B1F",
+    "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+    "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+    "profile_background_tile": false,
+    "profile_link_color": "1B95E0",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "B377EA",
+    "profile_text_color": "79EA7A",
+    "profile_use_background_image": true,
+    "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1072527922743963650\/0gabbMBP_normal.jpg",
+    "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1072527922743963650\/0gabbMBP_normal.jpg",
+    "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/436832041\/1473750205",
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+    "created_at": "Sat Jan 11 18:29:52 +0000 2020",
+    "id": 1216064701479768064,
+    "id_str": "1216064701479768064",
+    "text": "Master Python Interactively With PyGame: Ultimate Bootcamp\n\u261e https:\/\/t.co\/HtSIxRQcqL\n#python #developer \n\n95HDD3nW8\u2026 https:\/\/t.co\/ONKXmLg5Yo",
+    "display_text_range": [0, 140],
+    "source": "\u003ca href=\"http:\/\/viralr.net\/\" rel=\"nofollow\"\u003ecuong24984\u003c\/a\u003e",
+    "truncated": true,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 743780794997547008,
+      "id_str": "743780794997547008",
+      "name": "Python Developer",
+      "screen_name": "Python_Dv",
+      "location": "United States",
+      "url": "http:\/\/school.codetrick.net",
+      "description": "#python #programming #developers,#django",
+      "translator_type": "none",
+      "protected": false,
+      "verified": false,
+      "followers_count": 2663,
+      "friends_count": 1170,
+      "listed_count": 37,
+      "favourites_count": 616,
+      "statuses_count": 1739,
+      "created_at": "Fri Jun 17 12:22:15 +0000 2016",
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+      "profile_background_tile": false,
+      "profile_link_color": "1B95E0",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/842358957997883392\/59-UQhVS_normal.jpg",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/842358957997883392\/59-UQhVS_normal.jpg",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/743780794997547008\/1489669161",
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "extended_tweet": {
+      "full_text": "Master Python Interactively With PyGame: Ultimate Bootcamp\n\u261e https:\/\/t.co\/HtSIxRQcqL\n#python #developer \n\n95HDD3nW8bRZ https:\/\/t.co\/syD5x3tITj",
+      "display_text_range": [0, 118],
+      "entities": {
+        "hashtags": [{
+          "text": "python",
+          "indices": [85, 92]
+        }, {
+          "text": "developer",
+          "indices": [93, 103]
+        }],
+        "urls": [{
+          "url": "https:\/\/t.co\/HtSIxRQcqL",
+          "expanded_url": "http:\/\/courses.learnstartup.net\/p\/B1FClKY1G?utm_source=101&utm_campaign=101",
+          "display_url": "courses.learnstartup.net\/p\/B1FClKY1G?ut\u2026",
+          "indices": [61, 84]
+        }],
+        "user_mentions": [],
+        "symbols": [],
+        "media": [{
+          "id": 1216064699940380673,
+          "id_str": "1216064699940380673",
+          "indices": [119, 142],
+          "media_url": "http:\/\/pbs.twimg.com\/media\/EOBUZs_WoAETlYI.jpg",
+          "media_url_https": "https:\/\/pbs.twimg.com\/media\/EOBUZs_WoAETlYI.jpg",
+          "url": "https:\/\/t.co\/syD5x3tITj",
+          "display_url": "pic.twitter.com\/syD5x3tITj",
+          "expanded_url": "https:\/\/twitter.com\/Python_Dv\/status\/1216064701479768064\/photo\/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 750,
+              "h": 422,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 750,
+              "h": 422,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 383,
+              "resize": "fit"
+            }
+          }
+        }]
+      },
+      "extended_entities": {
+        "media": [{
+          "id": 1216064699940380673,
+          "id_str": "1216064699940380673",
+          "indices": [119, 142],
+          "media_url": "http:\/\/pbs.twimg.com\/media\/EOBUZs_WoAETlYI.jpg",
+          "media_url_https": "https:\/\/pbs.twimg.com\/media\/EOBUZs_WoAETlYI.jpg",
+          "url": "https:\/\/t.co\/syD5x3tITj",
+          "display_url": "pic.twitter.com\/syD5x3tITj",
+          "expanded_url": "https:\/\/twitter.com\/Python_Dv\/status\/1216064701479768064\/photo\/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "medium": {
+              "w": 750,
+              "h": 422,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 750,
+              "h": 422,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 383,
+              "resize": "fit"
+            }
+          }
+        }]
+      }
+    },
+    "quote_count": 0,
+    "reply_count": 0,
+    "retweet_count": 1,
+    "favorite_count": 1,
+    "entities": {
+      "hashtags": [{
+        "text": "python",
+        "indices": [85, 92]
+      }, {
+        "text": "developer",
+        "indices": [93, 103]
+      }],
+      "urls": [{
+        "url": "https:\/\/t.co\/HtSIxRQcqL",
+        "expanded_url": "http:\/\/courses.learnstartup.net\/p\/B1FClKY1G?utm_source=101&utm_campaign=101",
+        "display_url": "courses.learnstartup.net\/p\/B1FClKY1G?ut\u2026",
+        "indices": [61, 84]
+      }, {
+        "url": "https:\/\/t.co\/ONKXmLg5Yo",
+        "expanded_url": "https:\/\/twitter.com\/i\/web\/status\/1216064701479768064",
+        "display_url": "twitter.com\/i\/web\/status\/1\u2026",
+        "indices": [117, 140]
+      }],
+      "user_mentions": [],
+      "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "en"
+  },
+  "is_quote_status": false,
+  "quote_count": 0,
+  "reply_count": 0,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "entities": {
+    "hashtags": [{
+      "text": "python",
+      "indices": [100, 107]
+    }, {
+      "text": "developer",
+      "indices": [108, 118]
+    }],
+    "urls": [{
+      "url": "https:\/\/t.co\/HtSIxRQcqL",
+      "expanded_url": "http:\/\/courses.learnstartup.net\/p\/B1FClKY1G?utm_source=101&utm_campaign=101",
+      "display_url": "courses.learnstartup.net\/p\/B1FClKY1G?ut\u2026",
+      "indices": [76, 99]
+    }],
+    "user_mentions": [{
+      "screen_name": "Python_Dv",
+      "name": "Python Developer",
+      "id": 743780794997547008,
+      "id_str": "743780794997547008",
+      "indices": [3, 13]
+    }],
+    "symbols": []
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "filter_level": "low",
+  "lang": "en",
+  "timestamp_ms": "1578773720198"
+} {
+  "created_at": "Sat Jan 11 20:15:24 +0000 2020",
+  "id": 1216091258042699777,
+  "id_str": "1216091258042699777",
+  "text": "RT @python_online: How to Build Microsoft Bot Framework with Python language\n\n\u261e https:\/\/t.co\/Bboka7gNgi\n\n#python #programming https:\/\/t.co\/\u2026",
+  "source": "\u003ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 436832041,
+    "id_str": "436832041",
+    "name": "El Alquimista.",
+    "screen_name": "LSC_David_Isaac",
+    "location": "En tu cor\u00e1zon",
+    "url": null,
+    "description": "Desarrollador de software, web. Creador y productor independiente de videojuegos en mis tiempos libres y viciado de los mismos.",
+    "translator_type": "none",
+    "protected": false,
+    "verified": false,
+    "followers_count": 121,
+    "friends_count": 524,
+    "listed_count": 1,
+    "favourites_count": 8175,
+    "statuses_count": 7877,
+    "created_at": "Wed Dec 14 16:49:25 +0000 2011",
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "profile_background_color": "1A1B1F",
+    "profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+    "profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+    "profile_background_tile": false,
+    "profile_link_color": "1B95E0",
+    "profile_sidebar_border_color": "000000",
+    "profile_sidebar_fill_color": "B377EA",
+    "profile_text_color": "79EA7A",
+    "profile_use_background_image": true,
+    "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1072527922743963650\/0gabbMBP_normal.jpg",
+    "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1072527922743963650\/0gabbMBP_normal.jpg",
+    "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/436832041\/1473750205",
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+    "created_at": "Sat Jan 11 18:11:11 +0000 2020",
+    "id": 1216059997156790272,
+    "id_str": "1216059997156790272",
+    "text": "How to Build Microsoft Bot Framework with Python language\n\n\u261e https:\/\/t.co\/Bboka7gNgi\n\n#python #programming https:\/\/t.co\/wYxKPz3VPj",
+    "display_text_range": [0, 106],
+    "source": "\u003ca href=\"https:\/\/ifttt.com\" rel=\"nofollow\"\u003eIFTTT\u003c\/a\u003e",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 739018813560102912,
+      "id_str": "739018813560102912",
+      "name": "Python Online",
+      "screen_name": "python_online",
+      "location": null,
+      "url": null,
+      "description": "#python #pythontutorial\n #pythonprogramming #programming",
+      "translator_type": "none",
+      "protected": false,
+      "verified": false,
+      "followers_count": 1409,
+      "friends_count": 190,
+      "listed_count": 24,
+      "favourites_count": 0,
+      "statuses_count": 6659,
+      "created_at": "Sat Jun 04 08:59:50 +0000 2016",
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": "",
+      "profile_background_image_url_https": "",
+      "profile_background_tile": false,
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/920568068912439296\/EpWE4lkH_normal.jpg",
+      "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/920568068912439296\/EpWE4lkH_normal.jpg",
+      "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/739018813560102912\/1508315516",
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "quote_count": 0,
+    "reply_count": 0,
+    "retweet_count": 2,
+    "favorite_count": 4,
+    "entities": {
+      "hashtags": [{
+        "text": "python",
+        "indices": [86, 93]
+      }, {
+        "text": "programming",
+        "indices": [94, 106]
+      }],
+      "urls": [{
+        "url": "https:\/\/t.co\/Bboka7gNgi",
+        "expanded_url": "http:\/\/bit.ly\/2SWooFK",
+        "display_url": "bit.ly\/2SWooFK",
+        "indices": [61, 84]
+      }],
+      "user_mentions": [],
+      "symbols": [],
+      "media": [{
+        "id": 1216059996137578497,
+        "id_str": "1216059996137578497",
+        "indices": [107, 130],
+        "media_url": "http:\/\/pbs.twimg.com\/media\/EOBQH59X4AETLtg.jpg",
+        "media_url_https": "https:\/\/pbs.twimg.com\/media\/EOBQH59X4AETLtg.jpg",
+        "url": "https:\/\/t.co\/wYxKPz3VPj",
+        "display_url": "pic.twitter.com\/wYxKPz3VPj",
+        "expanded_url": "https:\/\/twitter.com\/python_online\/status\/1216059997156790272\/photo\/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 1024,
+            "h": 568,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 377,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 1024,
+            "h": 568,
+            "resize": "fit"
+          }
+        }
+      }]
+    },
+    "extended_entities": {
+      "media": [{
+        "id": 1216059996137578497,
+        "id_str": "1216059996137578497",
+        "indices": [107, 130],
+        "media_url": "http:\/\/pbs.twimg.com\/media\/EOBQH59X4AETLtg.jpg",
+        "media_url_https": "https:\/\/pbs.twimg.com\/media\/EOBQH59X4AETLtg.jpg",
+        "url": "https:\/\/t.co\/wYxKPz3VPj",
+        "display_url": "pic.twitter.com\/wYxKPz3VPj",
+        "expanded_url": "https:\/\/twitter.com\/python_online\/status\/1216059997156790272\/photo\/1",
+        "type": "photo",
+        "sizes": {
+          "medium": {
+            "w": 1024,
+            "h": 568,
+            "resize": "fit"
+          },
+          "thumb": {
+            "w": 150,
+            "h": 150,
+            "resize": "crop"
+          },
+          "small": {
+            "w": 680,
+            "h": 377,
+            "resize": "fit"
+          },
+          "large": {
+            "w": 1024,
+            "h": 568,
+            "resize": "fit"
+          }
+        }
+      }]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "en"
+  },
+  "is_quote_status": false,
+  "quote_count": 0,
+  "reply_count": 0,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "entities": {
+    "hashtags": [{
+      "text": "python",
+      "indices": [105, 112]
+    }, {
+      "text": "programming",
+      "indices": [113, 125]
+    }],
+    "urls": [{
+      "url": "https:\/\/t.co\/Bboka7gNgi",
+      "expanded_url": "http:\/\/bit.ly\/2SWooFK",
+      "display_url": "bit.ly\/2SWooFK",
+      "indices": [80, 103]
+    }],
+    "user_mentions": [{
+      "screen_name": "python_online",
+      "name": "Python Online",
+      "id": 739018813560102912,
+      "id_str": "739018813560102912",
+      "indices": [3, 17]
+    }],
+    "symbols": []
+  },
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "filter_level": "low",
+  "lang": "en",
+  "timestamp_ms": "1578773724457"
+} {
+  "created_at": "Sat Jan 11 20:15:30 +0000 2020",
+  "id": 1216091283816636416,
+  "id_str": "1216091283816636416",
+  "text": "Test for tweepy #python",
+  "source": "\u003ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e",
+  "truncated": false,
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 1216057067032793091,
+    "id_str": "1216057067032793091",
+    "name": "Aiden Zhang",
+    "screen_name": "AidenZhang15",
+    "location": null,
+    "url": null,
+    "description": null,
+    "translator_type": "none",
+    "protected": false,
+    "verified": false,
+    "followers_count": 0,
+    "friends_count": 0,
+    "listed_count": 0,
+    "favourites_count": 0,
+    "statuses_count": 2,
+    "created_at": "Sat Jan 11 17:59:44 +0000 2020",
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "lang": null,
+    "contributors_enabled": false,
+    "is_translator": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": "",
+    "profile_background_image_url_https": "",
+    "profile_background_tile": false,
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "profile_image_url": "http:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png",
+    "profile_image_url_https": "https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png",
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "is_quote_status": false,
+  "quote_count": 0,
+  "reply_count": 0,
+  "retweet_count": 0,
+  "favorite_count": 0,
+  "entities": {
+    "hashtags": [{
+      "text": "python",
+      "indices": [16, 23]
+    }],
+    "urls": [],
+    "user_mentions": [],
+    "symbols": []
+  },
+  "favorited": false,
+  "retweeted": false,
+  "filter_level": "low",
+  "lang": "en",
+  "timestamp_ms": "1578773730602"
+}
