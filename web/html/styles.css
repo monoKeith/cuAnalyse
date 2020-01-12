@@ -1,0 +1,155 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    overflow: scroll;
+    background-color: lightgray;
+}
+h1{
+    font-family: "Apple SD Gothic Neo";
+    color: darkgrey;
+    background-color: transparent;
+}
+h2{
+    font-family: "Apple SD Gothic Neo";
+    color: darkgrey;
+    background-color: transparent;
+}
+h4{
+    font-family: "Apple SD Gothic Neo";
+    font-size: 15px;
+    padding: 0px;
+    color: darkgrey;
+    background-color: transparent;
+    width: 300px;
+    display: inline;
+    alignment: center;
+    margin-left: 20px;
+    text-align: right;
+}
+h5{
+    font-family: "Apple SD Gothic Neo";
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    background-color: transparent;
+}
+p{
+    font-family: "Apple SD Gothic Neo";
+    font-size: 14px;
+    background-color: transparent;
+    color: #2e2e2e;
+}
+#everything{
+    margin: 0;
+    padding: 0;
+}
+#centerContent{
+    align-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding: 0 10px;
+    border-radius: 10px;
+    top: 5%;
+    left: 0;
+    right: 0;
+    width: 1280px;
+    height: 1000px;
+    position: fixed;
+    box-shadow: 0 0 30px #6e6e6e;
+}
+#buttonPane{
+    align-items: center;
+    padding: 5px;
+    width: 1280px;
+    margin: 10px auto;
+    border-width: 20px;
+    border-radius: 10px;
+    left: 0;
+    right: 0;
+}
+#infoPane{
+    background: #edebeb;
+    overflow: scroll;
+    width: 620px;
+    height: 815px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    float: left;
+}
+#infoCard{
+    width: 580px;
+    min-height: 80px;
+    border-radius: 10px;
+    background: #c3dceb;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+#rightPane{
+    width: 620px;
+    height: 815px;
+    background: #edebeb;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    float: right;
+}
+#keywordInput{
+    font-family: "Apple SD Gothic Neo";
+    font-size: 14px;
+    color: darkblue;
+    background-color: whitesmoke;
+    width: 580px;
+    height: 25px;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 10px;
+    margin: 5px;
+}
+#systemLogArea{
+    font-family: "Apple SD Gothic Neo";
+    font-size: 14px;
+    color: darkgrey;
+    width: 580px;
+    height: 300px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border-width: 0;
+    background-color: whitesmoke;
+    resize: none;
+    overflow: scroll;
+}
+#bottomContent{
+    text-align: center;
+    background: linear-gradient(to right, lightblue, lightcoral);
+    margin: 10px auto;
+    padding: 10px;
+    width: 1300px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.executeButton{
+    background-color: darkcyan;
+    width: 150px;
+    border-radius: 10px;
+    border-width: 0;
+    text-align: center;
+    padding: 10px;
+    margin: 5px 80px;
+}
+.userIcon{
+    border-radius: 10px;
+    alignment: left;
+}
