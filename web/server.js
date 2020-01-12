@@ -104,19 +104,25 @@ function handler(request, response) {
 }
 
 io.on('connection', function(socket){
-    socket.on('ballData', function(data){
-        console.log('RECEIVED BOX DATA: ' + data)
-        //to broadcast message to everyone including sender:
-
-        io.emit('ballData', data) //broadcast to everyone including sender
+    socket.on('tweetRequest', function(){
+        console.log('RECEIVED tweet request')
+        // read test json file!
+        const fs = require('fs');
+        let rawdata = fs.readFileSync('testTwitterContent.json');
+        let dataObj = JSON.parse(rawdata)
+        // send data to client
+        let jsonString = JSON.stringify(dataObj)
+        io.emit('tweetData', jsonString) //broadcast to everyone including sender
     });
 
-    // socket.on('end', function (){
-    //     socket.disconnect(0);
-    // });
+    socket.on('analyseRequest', function(data){
+        console.log('RECEIVED analyse request')
+        io.emit('analyseConfirm')
+    });
 })
+
 
 
 console.log("Server Running at PORT 3000  CNTL-C to quit")
 console.log("To Test")
-console.log("http://localhost:3000/curling.html")
+console.log("http://localhost:3000/index.html")

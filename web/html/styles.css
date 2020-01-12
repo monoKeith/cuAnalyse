@@ -12,6 +12,17 @@ h1 {
     color: darkgrey;
     background-color: transparent;
 }
+h4{
+    font-family: "Apple SD Gothic Neo";
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    color: darkgrey;
+    background-color: transparent;
+    width: 300px;
+    display: inline;
+    margin-left: 20px;
+}
 h5{
     font-family: "Apple SD Gothic Neo";
     font-size: 15px;
@@ -19,6 +30,12 @@ h5{
     margin: 0px;
     color: white;
     background-color: transparent;
+}
+p{
+    font-family: "Apple SD Gothic Neo";
+    font-size: 14px;
+    background-color: transparent;
+    color: #2e2e2e;
 }
 #everything{
     margin: 0;
@@ -51,7 +68,7 @@ h5{
 #infoPane{
     background: #e4e8f0;
     overflow: scroll;
-    width: 420px;
+    width: 440px;
     height: 825px;
     border-radius: 10px;
     margin: 5px;
@@ -64,6 +81,8 @@ h5{
     border-radius: 10px;
     background: #c3dceb;
     margin: 10px;
+    padding: 10px;
+    text-align: left;
 }
 
 #bottomContent{
@@ -86,4 +105,8 @@ h5{
     text-align: center;
     padding: 10px;
     margin: 5px 135px;
+}
+.userIcon{
+    border-radius: 10px;
+    alignment: left;
 }
