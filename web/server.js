@@ -109,7 +109,7 @@ function handler(request, response) {
 
 function importData(){
     // read test json file!
-    let rawdata = fs.readFileSync('testTwitterContent.json');
+    let rawdata = fs.readFileSync('Rogers147.json');
     let dataObj = JSON.parse(rawdata)
     // send data to client
     pushTweetData(dataObj)
