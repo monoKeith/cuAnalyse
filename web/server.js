@@ -134,14 +134,14 @@ function realTimeUpdate(){
         //console.log(dataObj)
         if(dataObj.length > jsonLength){
             let newTweets = []
-            for(i = jsonLength; i < dataObj.length; i++){
+            for(let i = jsonLength; i < dataObj.length; i++){
                 //console.log("NEW Tweet: " + dataObj[i])
                 newTweets.push(dataObj[i])
             }
             //console.log(newTweets)
             jsonLength = dataObj.length
             //emit update to client
-            pushTweetData(dataObj)
+            pushTweetData(newTweets)
         }
     }catch{
         console.log("json file not ready yet")
@@ -150,7 +150,6 @@ function realTimeUpdate(){
 
 function turnOnRealTimeUpdate(){
     enableRealTimeUpdate = true
-    jsonLength = 0
     //schedule update
     setTimeout(() =>{
         realTimeUpdate()

@@ -24,6 +24,7 @@ function updateInfoPane(data){
         pushInfo(data[key])
     }
     infoPane.scrollTop = infoPane.scrollHeight
+    updateSystemLog("Captured " + data.length + " tweets")
 }
 
 function updateSystemLog(data){

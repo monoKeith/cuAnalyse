@@ -39,7 +39,7 @@ h5{
 }
 p{
     font-family: "Apple SD Gothic Neo";
-    font-size: 14px;
+    font-size: 15px;
     background-color: transparent;
     color: #2e2e2e;
 }
@@ -113,6 +113,19 @@ p{
     border-width: 0;
     padding: 10px;
     margin: 5px;
+}
+#confidencePane{
+    font-family: "Apple SD Gothic Neo";
+    font-size: 14px;
+    color: darkgrey;
+    width: 580px;
+    height: 185px;
+    padding: 10px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 10px;
+    border-width: 0;
+    background-color: whitesmoke;
+    float: right;
 }
 #systemLogArea{
     font-family: "Apple SD Gothic Neo";
