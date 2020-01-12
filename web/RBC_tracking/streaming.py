@@ -57,6 +57,7 @@ keywords = keywords.replace('#',' ')
 print('Search keywords: {}'.format(keywords))
 
 tempObj = []
+open('test.json', 'w+')
 twitter_stream = Stream(auth, MyListener())
 # twitter_stream.filter(track=['#123456789cuhacking'])
 twitter_stream.filter(track=[keywords], languages=['en'])

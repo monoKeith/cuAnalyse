@@ -15,6 +15,7 @@ const ROOT_DIR = "html" //dir to serve static files from
 
 const PORT = process.env.PORT || 3000;
 var enableRealTimeUpdate = false
+var jsonLength = 0
 
 app.listen(PORT);//
 
@@ -106,7 +107,6 @@ function handler(request, response) {
 
 function importData(){
     // read test json file!
-    const fs = require('fs');
     let rawdata = fs.readFileSync('testTwitterContent.json');
     let dataObj = JSON.parse(rawdata)
     // send data to client
@@ -128,15 +128,35 @@ function realTimeUpdate(){
         realTimeUpdate()
     }, 500)
     console.log("Real Time Update!")
-
+    try{
+        let rawdata = fs.readFileSync('test.json')
+        let dataObj = JSON.parse(rawdata)
+        //console.log(dataObj)
+        if(dataObj.length > jsonLength){
+            let newTweets = []
+            for(let i = jsonLength; i < dataObj.length; i++){
+                //console.log("NEW Tweet: " + dataObj[i])
+                newTweets.push(dataObj[i])
+            }
+            //console.log(newTweets)
+            jsonLength = dataObj.length
+            //emit update to client
+            pushTweetData(newTweets)
+        }
+    }catch{
+        console.log("json file not ready yet")
+    }
 }
 
-function turnOnRealTimeUpdate(){
+function turnOnRealTimeUpdate(searchKey){
     enableRealTimeUpdate = true
-    realTimeUpdate()
+    //schedule update
+    setTimeout(() =>{
+        realTimeUpdate()
+    }, 500)
 
     //execute bash script to call python data collector
-    exec("bash ./startCollector.bash", (error, stdout, stderr) => {
+    exec("bash ./startCollector.bash " + searchKey.replace(/\s/g, '#'), (error, stdout, stderr) => {
         if (error) {
             console.log(`error: ${error.message}`);
             return;
@@ -167,13 +187,40 @@ function turnOffRealTimeUpdate(){
     });
 }
 
+function runAnalysis(){
+    analysisReport('Started')
+    //start analszer
+    exec("bash ./analyze.bash", (error, stdout, stderr) => {
+        if (error) {
+            analysisReport(`error: ${error.message}`)
+            console.log(`error: ${error.message}`);
+            return;
+        }
+        if (stderr) {
+            analysisReport(`stderr: ${stderr}`)
+            console.log(`stderr: ${stderr}`);
+            return;
+        }
+        analysisReport(`stdout: ${stdout}`)
+        console.log(`stdout: ${stdout}`);
+    });
+}
+
+function analysisReport(report){
+    let msg = {
+        'report': report
+    }
+    let jsonString = JSON.stringify(msg)
+    io.emit('analyseConfirm', jsonString)
+}
+
 io.on('connection', function(socket){
     socket.on('tweetRequest', function(data){
         console.log('RECEIVED tweet request')
         dataObj = JSON.parse(data)
         let enableRealTimeUpdate;
         if (dataObj.on) {
-            turnOnRealTimeUpdate()
+            turnOnRealTimeUpdate(dataObj.key)
         } else {
             //turn off data collection
             turnOffRealTimeUpdate()
@@ -185,7 +232,7 @@ io.on('connection', function(socket){
     });
     socket.on('analyseRequest', function(data){
         console.log('RECEIVED analyse request')
-        io.emit('analyseConfirm')
+        runAnalysis()
     });
 })
 
