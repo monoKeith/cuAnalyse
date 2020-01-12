@@ -3,6 +3,7 @@ import json
 from tweepy import Stream
 from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
+import argparse
 
 consumer_key = 'Fi8UY5UtgvSm5pw5Gzyz29ZLE'
 consumer_secret = '9H8mFPrWlbFfwqXyoSIHierQY6VfVckw3c1c5BKACGyhBqVO2g'
@@ -43,9 +44,19 @@ class MyListener(StreamListener):
         print(status)
         return True
 
+def parse_args():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("-kw", "--keywords", type=str, default="RBC", help="Key words string. Saparated by #.")
+    args = ap.parse_args()
+    return args
 
 # fo = open('test.json', 'w+')
+args = parse_args()
+keywords = args.keywords
+keywords = keywords.replace('#',' ')
+print('Search keywords: {}'.format(keywords))
+
 tempObj = []
 twitter_stream = Stream(auth, MyListener())
 # twitter_stream.filter(track=['#123456789cuhacking'])
-twitter_stream.filter(track=['suck'], languages=['en'])
+twitter_stream.filter(track=[keywords], languages=['en'])
