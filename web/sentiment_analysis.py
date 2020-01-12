@@ -77,6 +77,7 @@ def main():
     total = len(tweets_list)
     print("Total number of tweets: {}".format(total))
     with open('out.txt','w') as f: 
+        f.write("Total number of tweets: {}\n".format(total))
         if args.keywords != "":
             key_words_list = args.keywords.split("#")
             #print(key_words_list)
