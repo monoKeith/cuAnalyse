@@ -55,6 +55,7 @@ p{
     width: 1300px;
     height: 1000px;
     position: fixed;
+    box-shadow: 0 0 30px #6e6e6e;
 }
 #buttonPane{
     align-items: center;
@@ -67,10 +68,10 @@ p{
     right: 0;
 }
 #infoPane{
-    background: #e4e8f0;
+    background: #edebeb;
     overflow: scroll;
     width: 620px;
-    height: 825px;
+    height: 815px;
     border-radius: 10px;
     margin: 5px;
     padding: 5px;
@@ -87,8 +88,8 @@ p{
 }
 #rightPane{
     width: 620px;
-    height: 825px;
-    background: #e4e8f0;
+    height: 815px;
+    background: #edebeb;
     border-radius: 10px;
     margin: 5px;
     padding: 5px;
@@ -96,7 +97,7 @@ p{
 }
 #bottomContent{
     text-align: center;
-    background-color: darkgray;
+    background: linear-gradient(to right, lightblue, lightcoral);
     margin: 10px auto;
     padding: 10px;
     width: 1300px;
