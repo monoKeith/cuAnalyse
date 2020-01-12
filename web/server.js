@@ -15,7 +15,9 @@ const ROOT_DIR = "html" //dir to serve static files from
 
 const PORT = process.env.PORT || 3000;
 var enableRealTimeUpdate = false
+var enableCheckLog = false
 var jsonLength = 0
+var logLength = 0
 
 app.listen(PORT);//
 
@@ -187,8 +189,28 @@ function turnOffRealTimeUpdate(){
     });
 }
 
+function checkLog() {
+    //console.log("check log")
+    //schedule update
+    setTimeout(() => {
+        checkLog()
+    }, 1000)
+
+    let rawdata = fs.readFileSync('out.txt', 'utf8')
+    if(rawdata != ""){
+        if(rawdata.length > logLength){
+            console.log(rawdata)
+            analysisReport(rawdata)
+            logLength = rawdata.length
+        }
+    }
+}
+
 function runAnalysis(){
     analysisReport('Started')
+    setTimeout(() => {
+        checkLog()
+    }, 500)
     //start analszer
     exec("bash ./analyze.bash", (error, stdout, stderr) => {
         if (error) {
@@ -197,7 +219,7 @@ function runAnalysis(){
             return;
         }
         if (stderr) {
-            analysisReport(`stderr: ${stderr}`)
+            analysisReport(`stdout: ${stderr}`)
             console.log(`stderr: ${stderr}`);
             return;
         }
