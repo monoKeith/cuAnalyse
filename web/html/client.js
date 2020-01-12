@@ -2,6 +2,7 @@ console.log("Client script running!")
 infoPane = document.getElementById("infoPane")
 collectButton = document.getElementById("collectButton")
 collectionButtonReleased = true
+systemLogArea = document.getElementById("systemLogArea")
 
 function pushInfo(msg) {
     htmlContent =  "<div id=\"infoCard\">"
@@ -24,6 +25,16 @@ function updateInfoPane(data){
     }
 }
 
+function updateSystemLog(data){
+    let date = new Date()
+    systemLogArea.value += "[" + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds() + "]  \t" + data + "\n"
+    systemLogArea.scrollTop = systemLogArea.scrollHeight
+}
+
+function clearSystemLog(){
+    systemLogArea.value = ""
+}
+
 //Button handlers!
 
 function collectDataButton(){
@@ -34,10 +45,12 @@ function collectDataButton(){
     }
     if(collectionButtonReleased){
         collectButton.style.background = '#fc9088'
+        updateSystemLog("Collecting data....")
         collectButton.innerHTML = '<h5>STOP</h5>'
         collectionButtonReleased = false
     }else{
         collectButton.style.background = '#86db9d'
+        updateSystemLog("Stop collecting data....")
         collectButton.innerHTML = '<h5>Collect Data</h5>'
         collectionButtonReleased = true
         data.on = false
@@ -59,6 +72,7 @@ function analyseDataButton(){
 function clearDataButton(){
     console.log("Clear Data Button!")
     clearInfo()
+    clearSystemLog()
 }
 
 let socket = io('http://' + window.document.location.host)

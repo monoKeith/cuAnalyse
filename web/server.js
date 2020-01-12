@@ -8,14 +8,15 @@ Use browser to view pages at http://localhost:3000/collisions.html
 const app = require('http').createServer(handler);
 const io = require('socket.io')(app); //wrap server app in socket io capability
 const fs = require("fs"); //need to read static files
+const { exec } = require("child_process");
 const url = require("url"); //to parse url strings
 
 const ROOT_DIR = "html" //dir to serve static files from
 
 const PORT = process.env.PORT || 3000;
+var enableRealTimeUpdate = false
+
 app.listen(PORT);//
-
-
 
 const MIME_TYPES = {
     css: "text/css",
@@ -109,29 +110,73 @@ function importData(){
     let rawdata = fs.readFileSync('testTwitterContent.json');
     let dataObj = JSON.parse(rawdata)
     // send data to client
+    pushTweetData(dataObj)
+}
+
+function pushTweetData(dataObj){
+    // send data to client
     let jsonString = JSON.stringify(dataObj)
     io.emit('tweetData', jsonString) //broadcast to everyone including sender
 }
 
-function pushData(){
-    // read test json file!
-    const fs = require('fs');
-    let rawdata = fs.readFileSync('testTwitterContent.json');
-    let dataObj = JSON.parse(rawdata)
-    // send data to client
-    let jsonString = JSON.stringify(dataObj)
-    io.emit('tweetData', jsonString) //broadcast to everyone including sender
+function realTimeUpdate(){
+    if(! enableRealTimeUpdate){
+        console.log("Real Time Update OFF!")
+        return
+    }
+    setTimeout(() =>{
+        realTimeUpdate()
+    }, 500)
+    console.log("Real Time Update!")
+
+}
+
+function turnOnRealTimeUpdate(){
+    enableRealTimeUpdate = true
+    realTimeUpdate()
+
+    //execute bash script to call python data collector
+    exec("bash ./startCollector.bash", (error, stdout, stderr) => {
+        if (error) {
+            console.log(`error: ${error.message}`);
+            return;
+        }
+        if (stderr) {
+            console.log(`stderr: ${stderr}`);
+            return;
+        }
+        console.log(`stdout: ${stdout}`);
+    });
+}
+
+function turnOffRealTimeUpdate(){
+    console.log("Received collecter OFF msg")
+    enableRealTimeUpdate = false
+
+    //killall streaming.py
+    exec("bash ./endCollector.bash", (error, stdout, stderr) => {
+        if (error) {
+            console.log(`error: ${error.message}`);
+            return;
+        }
+        if (stderr) {
+            console.log(`stderr: ${stderr}`);
+            return;
+        }
+        console.log(`stdout: ${stdout}`);
+    });
 }
 
 io.on('connection', function(socket){
     socket.on('tweetRequest', function(data){
         console.log('RECEIVED tweet request')
         dataObj = JSON.parse(data)
-        if(dataObj.on){
-            pushData();
-        }else{
+        let enableRealTimeUpdate;
+        if (dataObj.on) {
+            turnOnRealTimeUpdate()
+        } else {
             //turn off data collection
-            console.log("Received collecter OFF msg")
+            turnOffRealTimeUpdate()
         }
     });
     socket.on('importRequest', function(){

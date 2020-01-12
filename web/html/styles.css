@@ -7,7 +7,12 @@ html, body{
     overflow: scroll;
     background-color: lightgray;
 }
-h1 {
+h1{
+    font-family: "Apple SD Gothic Neo";
+    color: darkgrey;
+    background-color: transparent;
+}
+h2{
     font-family: "Apple SD Gothic Neo";
     color: darkgrey;
     background-color: transparent;
@@ -52,7 +57,7 @@ p{
     top: 5%;
     left: 0;
     right: 0;
-    width: 1300px;
+    width: 1280px;
     height: 1000px;
     position: fixed;
     box-shadow: 0 0 30px #6e6e6e;
@@ -76,6 +81,7 @@ p{
     margin: 5px;
     padding: 5px;
     display: inline-block;
+    float: left;
 }
 #infoCard{
     width: 580px;
@@ -94,6 +100,33 @@ p{
     margin: 5px;
     padding: 5px;
     display: inline-block;
+    float: right;
+}
+#keywordInput{
+    font-family: "Apple SD Gothic Neo";
+    font-size: 14px;
+    color: darkblue;
+    background-color: whitesmoke;
+    width: 580px;
+    height: 25px;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 10px;
+    margin: 5px;
+}
+#systemLogArea{
+    font-family: "Apple SD Gothic Neo";
+    font-size: 14px;
+    color: darkgrey;
+    width: 580px;
+    height: 300px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border-width: 0;
+    background-color: whitesmoke;
+    resize: none;
+    overflow: scroll;
 }
 #bottomContent{
     text-align: center;
